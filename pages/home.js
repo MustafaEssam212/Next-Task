@@ -1,11 +1,12 @@
-import L1 from "@/Layouts/Layout1";
 
-export default function home() {
+export default function Home() {
     return (
         <>
-            <L1>
-                <main>home page</main>
-            </L1>
+            <div style={{background: "cyan", height: "100vh"}}>
+                <h1>Main page</h1>
+            </div>
         </>
     )
 }
+
+Home.Layout = "L1"

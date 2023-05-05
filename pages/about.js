@@ -1,11 +1,12 @@
-import L2 from "@/Layouts/Layout2";
+import Footer from "@/Components/layouts/footer"
+import Header from "@/Components/layouts/header"
 
-export default function about() {
+export default function About() {
     return (
         <>
-            <L2>
-                <main>about page</main>
-            </L2>
+            <main> <h1> about page </h1></main>
         </>
     )
 }
+
+About.Layout = "L2"

@@ -22,5 +22,6 @@ export async function getStaticProps() {
 
   }
 }
+Home.Layout = "L1"
 
 export default Home
